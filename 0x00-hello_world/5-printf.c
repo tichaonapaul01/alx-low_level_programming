@@ -2,6 +2,7 @@
 
 /**
 *main - Entry point
+*main - prints "with proper grammar...
 *Return: Always 0 (Success)
 */
 

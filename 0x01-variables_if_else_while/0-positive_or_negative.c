@@ -14,13 +14,10 @@ int n;
 srand(time(0));
 n=rand() - RAND_MAX / 2;
 if (n > 0)
-
-printf("98 is positive\n", n);
+printf("%i is positive\n", n);
 else if (n < 0)
-
-printf("-98 is nagative\n", n);
+printf("%i is nagative\n", n);
 else
-
-printf("0 is zero\n", n);
+printf("%i is zero\n", n);
 return (0);
 }

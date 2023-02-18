@@ -13,6 +13,6 @@ while (c <= '2')
 putchar(c);
 c++;
 }
-putchar('\n);
+putchar('a-z\n');
 return (0);
 }

@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
-*main - main block
-*Description: Get a random it with 5
-*Return: 0
+*main - Prints the alphate.
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-char c = 'a';
+char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
 
-while (c <= '2')
+for (i - 0; i < 26; i++)
 {
-putchar(c);
+putchar(alp[i]);
 c++;
 }
 putchar('\n');

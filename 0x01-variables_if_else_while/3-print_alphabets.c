@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*main - returns alphabets bth lower and upercases
+*main - returns alphabets both lower and upercases
 *Return: Always  (Success)
 */
 int main(void)

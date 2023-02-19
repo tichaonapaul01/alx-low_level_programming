@@ -3,14 +3,14 @@
 *main - main block
 *Description: print the alphabet in lower case
 *and the alphabet in uppercase, followed by a new line
-*Return: 
+*Return: 0 
 */
 int main(void)
 {
 
-char ch = 'a';
+char c = 'a';
 
-while (ch <= 'z')
+while (c <= 'z')
 {
 putchar(c);
 c++;

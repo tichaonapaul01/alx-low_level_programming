@@ -2,8 +2,8 @@
 /**
 *main - main block
 *Description: print the alphabet in lower case
-*and the alphabet in uppercase, follow by a new line
-*Return: Always 0 (Success)
+*and the alphabet in uppercase, followed by a new line
+*Return: 
 */
 int main(void)
 {
@@ -14,7 +14,7 @@ while (c <= 'z')
 putchar(c);
 c++;
 }
-c = 'A';
+char c = 'A';
 
 while (c <= 'Z')
 {

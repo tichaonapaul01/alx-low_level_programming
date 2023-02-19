@@ -1,23 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
-*main - main block
-*Description: print the alphabet in lower case
-*and the in uppercase, follow by a new line
-*Return: 0
+*main - returns alphabets bth lower and upercases
+*Return: Always  (Success)
 */
 int main(void)
 {
-char c = 'a';
-while (c <= '2')
+int ch = 'a';
+int CH = 'A';
+
+while (ch <= 'z')
 {
-putchar(c);
-c++;
+putchar(ch);
+ch++;
 }
 c = 'A';
-while (c <= 'Z')
+while (CH <= 'Z')
 {
-putchar(c);
-c++;
+putchar(CH);
+CH++;
 }
 putchar('\n')
 return (0);

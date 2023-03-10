@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", tich(argv[1]) * tich(argv[2]));
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }

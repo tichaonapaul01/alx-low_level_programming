@@ -1,10 +1,6 @@
-#ifndef MAIN_H
+#ifndef MAAIN_H
 #define MAIN_H
 
-argv
-argc
-argc, argv
+int _putchar(char c);
 
 #endif
-
-

@@ -1,10 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "2-main.c"
+
+/**
+*main - prints the name of
+*the file it was compiled from
+*
+*Return: nothing to be returned
+*/
 
 int main(void)
 {
-	printf("2-main.c\n");
+	printf("%s\n", __FILE__);
+        return 0;
 }
 
 

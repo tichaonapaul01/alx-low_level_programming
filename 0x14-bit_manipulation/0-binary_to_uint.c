@@ -9,32 +9,22 @@
 *
 * Return: unsigned int.
 */
-unsigned int binary_to_uint(const char *b)
-{
-    uint;
-	int len, base_2;
+unsigned int binary_to_uint(const char *b) {
+    unsigned int number  = 0;
 
-	if (!b)
-		return (0);
+    if (b == NULL) {
+        return 0;
+    }
 
-	uint = 0;
+    for (int i = 0; b[i] != '\0'; i++) {
+        if (b[i] == '1') {
+            number = number * 2 + 1;
+        } else if (b[i] == '0') {
+            number *= 2;
+        } else {
+            return 0;
+        }
+    }
 
-	for (len = 0; b[len] != '\0'; len++)
-		;
-
-	for (len--,base_2 = 1; len >= 0; len--, base_two *= 2)
-	{
-		if (b[len] != '0' && b[len] != '1')
-		{
-			return (0);
-		}
-
-		if (b[len] & 1)
-		{
-			uint = uint + base_two;
-		}
-	}
-
-	return (uint);
+    return number;
 }
-
